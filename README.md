@@ -94,7 +94,7 @@ Para uma transação marcada como fraude pelo threshold ajustado, as maiores con
 
 ```text
 .
-├── deteccao_fraude_cartoes.ipynb
+├── deteccao_fraude_cartoes_colab.ipynb
 ├── README.md
 ├── requisitos.txt
 ├── resultados_modelos.csv
@@ -104,6 +104,6 @@ Para uma transação marcada como fraude pelo threshold ajustado, as maiores con
 
 ## ✅ Observações
 
-O dataset não é incluído no repositório. O notebook faz o carregamento pela URL.
-
-As métricas e análises deste README correspondem à execução do notebook e devem ser mantidas junto com as saídas salvas, para que o repositório tenha evidência reproduzível do resultado.
+- O dataset não é incluído no repositório.
+- O notebook realiza o carregamento dos dados diretamente pela URL.
+- Os arquivos `.csv` contêm os resultados gerados durante a execução do notebook.
